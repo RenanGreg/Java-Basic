@@ -9,6 +9,6 @@ public class FXMLDocumentController
     private void clicouBotao (){ 
       lblMensagem.setText("Ola, Mundo"); 
     }
-  }  
+  } 
 
 
