@@ -1,4 +1,5 @@
 package somaswing;
+import javax.swing;
 
 public class TelaSoma extends javax.swing.JFrame {
 
@@ -18,5 +19,6 @@ public class TelaSoma extends javax.swing.JFrame {
          public void run() {
                 new TelaSoma().setVisible(true);
             } 
-        }); 
+        });
     } 
+}    
