@@ -1,3 +1,5 @@
+package fxmldocumentcontroller; 
+
 import java.awt.Button;
 import java.awt.Label;
 import java.awt.event.ActionEvent;
@@ -13,8 +15,8 @@ public class FXMLDocumentController {
         lblMensagem = new Label("Mensagem inicial");
 
         bntClick.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+            
+            public void actionPerformed(ActionEvent event) {
                 clicouBotao();
             }
         });
