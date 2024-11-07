@@ -1,4 +1,4 @@
-packag estruturasderepeticao; 
+package estruturasderepeticao; 
 import java.util.Scanner;
 
 public class Numeros{
